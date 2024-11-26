@@ -605,6 +605,21 @@ body{
     justify-content: space-between;
 }
 
+@media screen and (max-width: 910px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }   
+
+    .footerTop{
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: center;
+    }
+
+}
+
 .footerTop{
     width: 40%;
     display: flex;
